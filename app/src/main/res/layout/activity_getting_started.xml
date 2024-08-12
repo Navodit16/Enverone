@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#141726"
+    tools:context=".GettingStarted">
+
+
+    <TextView
+        android:id="@+id/Getting_Started_second_page"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:text="@string/getting_started_second_page"
+        android:textColor="#f2ddb6"
+        android:textSize="44sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <TextView
+        android:id="@+id/Getting_Started_Details"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Meet SAM an AI environmental expert residing in a waste management app. By analyzing images of potential trash, SAM identifies materials and offers users sustainable disposal, reuse, or composting solutions. SAM also provides guidance on soil care and plant selection, promoting eco-conscious choices with every interaction. While taking its mission seriously, SAM isn't afraid to lighten the mood with a gentle, passive-aggressive joke if a user mistakes a living creature for garbage—all in the name of promoting compassion and awareness."
+        android:textSize="16sp"
+        android:textAlignment="center"
+        android:textColor="#f2ddb6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Getting_Started_second_page"
+        tools:ignore="HardcodedText" />
+
+    <GridLayout
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:columnCount="2"
+        android:rowCount="2"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Getting_Started_Details"
+        app:layout_constraintVertical_bias="0.5">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/gemini_robot"
+            android:layout_width="300dp"
+            android:layout_height="300dp"
+            android:contentDescription="@string/gemini_robot"
+            android:scaleType="centerCrop"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.5"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/Getting_Started_Details"
+            app:layout_constraintVertical_bias="0.625"
+            app:shapeAppearanceOverlay="@style/RoundedEdges"
+            app:srcCompat="@drawable/gemini_generated_image_robot" />
+
+    </GridLayout>
+
+    <ImageButton
+        android:id="@+id/imageButton4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="14dp"
+        android:backgroundTint="#141726"
+        android:contentDescription="@string/back_button"
+        app:layout_constraintBottom_toTopOf="@+id/Getting_Started_second_page"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/arrow_removebg_preview_1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+

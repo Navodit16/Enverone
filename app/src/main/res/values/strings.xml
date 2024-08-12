@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Enverone</string>
+    <string name="enverone_logo">Enverone logo</string>
+    <string name="act_before_it_s_too_late">Act before it\'s too late</string>
+    <string name="camera">Camera</string>
+    <string name="welcome_to_enverone">Welcome to Enverone</string>
+    <string name="welcome_green">Welcome Green!</string>
+    <string name="world">World</string>
+    <string name="hello">Hello</string>
+    <string name="greens">Greens!</string>
+    <string name="welcome">Welcome</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="getting_started_second_page">Getting Started</string>
+    <string name="gemini_robot">gemini_robot</string>
+    <string name="capture_image">Capture Image</string>
+    <string name="capture_a_photo_of_the_item_you_want_to_classify_as_garbage">Capture a photo of the item you want to classify as garbage.</string>
+    <string name="capture_a_photo_of_the_item_you_want_to_classify_as_garbage_or_as_plant_or_soil">capture_a_photo_of_the_item_you_want_to_classify_as_garbage or as plant or soil</string>
+    <string name="capture_a_photo_of_the_item_you_want_to_classify_as_garbage_or_as_a_plant_or_soil">Capture a photo of the item you want to classify as garbage or as a plant or soil.</string>
+    <string name="back_button">back button</string>
+    <string name="capture_a_photo_of_the_item_you_want_to_classify_as_a_plant_or_soil">Capture a photo of the item you want to classify as a plant or soil</string>
+
+
+</resources>
