@@ -19,7 +19,7 @@ android {
         versionName = "1.0"
 
         testInstrumentationRunner = "androidx.test.runner.AndroidJUnitRunner"
-        buildConfigField("String", "apiKey", "\"AIzaSyC8oHPPEdMvBzZUE_ambYCGM4lCdbY-Oj4\"")
+        buildConfigField("String", "apiKey", "\"***\"")
     }
     buildFeatures {
         viewBinding = true
