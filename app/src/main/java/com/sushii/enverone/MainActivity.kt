@@ -142,6 +142,7 @@ class MainActivity : AppCompatActivity() {
             .setOnClickListener {
                 val intent = Intent(this, GettingStarted::class.java)
                 startActivity(intent)
+                finish()
             }
 
 
@@ -151,6 +152,7 @@ class MainActivity : AppCompatActivity() {
 private fun opengeminipage(){
     val intent = Intent(this, GeminiPage::class.java)
     startActivity(intent)
+    finish()
 }
 
     private fun checkInternetConnection() {
@@ -180,6 +182,7 @@ private fun opengeminipage(){
     private fun opengeminipage2(){
         val intent2 = Intent(this, GeminiPage2::class.java)
         startActivity(intent2)
+        finish()
     }
 
 }

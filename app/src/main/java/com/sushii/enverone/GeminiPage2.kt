@@ -139,6 +139,7 @@ class GeminiPage2 : AppCompatActivity() {
         backButton.setOnClickListener {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
+            finish()
 
         }
     }
